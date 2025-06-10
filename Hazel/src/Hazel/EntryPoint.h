@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 
 	Hazel::Log::Init();
 	HZ_CORE_WARN("Initialize Log!");
-	HZ_CLIENT_INFO("Hello!");
+	HZ_INFO("Hello!");
 
 	auto app = Hazel::CreateApplication();
 
